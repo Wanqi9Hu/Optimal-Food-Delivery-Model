@@ -12,11 +12,11 @@ In recent years, with the development of O2O (Online to Offline) e-commerce, Chi
 ### Greedy method
 The basic principle of the greedy method is to assign newly generated orders to the nearest delivery staff who meets the vehicle capacity limit.
 <div align=center>
-<img src="https://github.com/Wanqi9Hu/Optimal-Food-Delivery-Model/blob/main/Greedy%20Method.png" width="500" height="700">
+<img src="https://github.com/Wanqi9Hu/Optimal-Food-Delivery-Model/blob/main/Greedy%20Method.png" width="450" height="720">
 </div>
 
 ### Clustering method
 We choose K-means clustering, one of the simplest and most popular machine learning algorithms as a clustering method. The working principle is to match the location of the merchant and the location of the customer of each order and convert the location of each order into a vector. Select the minimum value of the current number of unserviced orders and the number of available delivery staff as the number of clusters. Assign each cluster to the nearest available delivery staff. 
 <div align=center>
-<img src="https://github.com/Wanqi9Hu/Optimal-Food-Delivery-Model/blob/main/Clustering%20Method.png" width="500" height="700">
+<img src="https://github.com/Wanqi9Hu/Optimal-Food-Delivery-Model/blob/main/Clustering%20Method.png" width="450" height="720">
 </div>
